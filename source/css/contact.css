@@ -85,3 +85,142 @@ body{
     color:rgb(41, 87, 173);
 
 }
+
+/* Iphon 13pro */
+@media screen and (max-width: 428px) {
+    body{
+        height: 926px;
+        overflow-y: hidden;
+    }
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 180px;
+    }
+
+    main{
+        padding-top: 10px;
+    }
+
+    .nav_container{
+        margin: 5px;
+        padding: 15px;
+        font-size: 15px;
+    }
+}
+
+ /* Iphone xr */
+ @media screen and (max-width: 414px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 170px;
+    }
+
+    main{
+        padding-top: 0px;
+    }
+ }
+
+ /* pixel 3 */
+ @media screen and (max-width: 393px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+    }
+
+    .contactTitle{
+        font-size: 20px;
+    }
+
+    .name{
+        width: 70%;
+        margin-left: 25px;
+        height: 20%;
+    }
+
+    .email{
+        width: 70%;
+        margin-left: 25px;
+        height: 20%;
+    }
+
+    .message{
+        width: 70%;
+        margin-left: 25px;
+        height: 20%;
+    }
+
+    .selectOption{
+        width: 75%;
+        margin-left: 25px;
+        height: 20%;
+    }
+
+    .btnSubmit{
+        width: 35%;
+        margin-left: 25%;
+
+    }
+
+
+
+ }
+
+   /* iphone 12 */
+@media screen and (max-width: 390px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 160px;
+    }
+
+    .contactTitle{
+        font-size: 20px;
+    }
+
+    
+    .btnSubmit{
+        width: 30%;
+        margin-left: 30%;
+    }
+    
+}
+/* Galaxy S8+ */
+@media screen and (max-width: 360px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 120px;
+    }
+
+    .btnSubmit{
+        width: 30%;
+        margin-left: 27%;
+    }
+}
+
+
+/* pixel 4 */
+@media screen and (max-width: 353px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 140px;
+    }
+
+     
+    .btnSubmit{
+        width: 30%;
+        margin-left: 27%;
+    }
+    
+    }
