@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./source/css/home.css">
+    <link rel="stylesheet" href="./source/css/contact.css">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
@@ -21,15 +22,36 @@
             <div class="nav_container">
                 <a href="./services.html"><h2>Services</h2></a>
                 <a href="./about.html"><h2>About</h2></a>
-                <a href="./contact.html"><h2>Contact</h2></a>
+                <a href="./index.html"><h2>Home</h2></a>
                 </div>
         </div>
        
     </nav>
 
-    <main>
-        <i class="missionST">In Blooming L <span class="spannyST">&</span> G our goal is to help the environment by using organic materials and making your garden and home look beautiful.</i>
-        <p> - Andy Nava</p>
+    <main class="topPadContact">
+        <div class="contact">
+
+        <h1 class="contactTitle"> Contact</h1>
+
+        <h3 class="contactTitle">How can we help you today?</h3>
+
+        <select class="selectOption">
+            <option value="optionS"> Select A Service  </option>
+            <option value="irrigation">Irrigation System</option>
+            <option value="gardening">Gardening</option>
+            <option value="landscaping">Landscaping</option>
+            <option value="clean">Clean Ups</option>
+            <option value="other">Other</option>
+        </select>
+
+        <form action="https://formsubmit.co/andresnava1228@gmail.com" method="POST" class="formContainer">
+            <input type="text" name="name" placeholder="Full Name..." class="name" required>
+            <input type="email" name="email" placeholder="Email..." class="email" required>
+            <textarea name="message" placeholder="Message..." class="message"></textarea>
+           
+            <button type="submit" class="btnSubmit">Send</button>
+       </form>
+        </div>
     </main>
 
     <footer class="footer">

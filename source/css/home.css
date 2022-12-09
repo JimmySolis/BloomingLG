@@ -1,33 +1,335 @@
 *{
     color: rgb(255, 255, 255);
-    font-family: 'Yantramanav', sans-serif;;
+    font-family: 'Italiana', serif;
     -webkit-text-stroke: 1px  rgb(20, 42, 84);
+    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+  
+  
 body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 1800px;
+    height: 1200px;
     background-image:linear-gradient(rgb(252, 252, 254), rgb(250, 229, 153 )) ;
 }
 
 .logo{
-    width: 11rem;
+    width: 9rem;
 }
 
 .title{
     text-decoration: none;
     color: rgb(41, 87, 173);
-    font-size: 38px;
+    font-size: 35px;
+}
+
+.sticky{
+    top: 10px;
+    position: sticky;
+
+}
+
+.spanny{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(1, 228, 228);
+}
+
+.spannyST{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header{
     margin:  10px;
     padding: 60px;
-  
+    padding-left: 80px;
     display: flex;
     justify-content: center;
-   
 }
 
+.grassImg{
+    width: 100%;
+}
+
+.nav{
+    padding-top: 230px;
+    padding-bottom: 50px;
+    padding-left: 8px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    transition: 2s;
+}
+
+.nav_container{
+    margin: 5px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+.nav--hidden .nav_container{ 
+    transform: translateY(calc(-1 * 230px));
+    box-shadow: none;
+    font-size: 15px;
+    transition:  1s;
+}
+
+.nav--trans{
+    transition:  2s;
+}
+
+main{
+    padding-top: 200px;
+    margin-left: 25px;
+}
+
+.missionST{
+    padding: 30px;
+}
+
+.footer{
+    position: relative;
+    margin-top: 300px;
+}
+
+#btnScrollToTop{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:  rgb(249, 240, 206);
+    color: rgb(252, 252, 254);
+    opacity: 70%;
+    box-shadow: 0, 0, 10px rgb(0, 0, 0.25);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active{
+    opacity: 100%;
+}
+
+@media screen and (max-width: 2560px) {
+    body{
+        height: 1000px;
+    }
+
+    .footer{
+        margin-top: 0px;
+    }
+
+    main{
+        padding-top: 100px;
+    }
+  }
+
+/* Iphon 13pro */
+  @media screen and (max-width: 428px) {
+    .nav--hidden .nav_container{ 
+        transform: translateY(calc(-1 * 230px));
+        box-shadow: none;
+        font-size: 10px;
+        transition:  1s;
+    }
+
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    header{
+        margin:  10px;
+        padding: 60px;
+        padding-left: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title{
+        text-decoration: none;
+        color: rgb(41, 87, 173);
+        font-size: 25px;
+    }
+
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 180px;
+    }
+
+    body{
+        height: 926px;
+        overflow-y: hidden;
+    }
+
+    main{
+        padding-top: 110px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .nav{
+        padding-top: 180px;
+        padding-bottom: 50px;
+        padding-left: 8px;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        transition: 2s;
+    }
+
+    .nav--hidden .nav_container{ 
+        transform: translateY(calc(-1 * 230px));
+        padding-top: 70px;
+        box-shadow: none;
+        font-size: 11px;
+        transition:  1s;
+    }
+
+    .nav_container{
+        margin: 5px;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .missionST{
+        padding: 30px;
+        margin: 50px;
+        line-height: 35pt;
+        font-size: 25px;
+        color:  rgb(20, 42, 84);
+    }
+
+    .spannyST{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aqua;
+    }
+    
+    
+    }
+
+    /* Iphone xr */
+    @media screen and (max-width: 414px) {
+        .footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 170px;
+        }
+      }
+
+
+      /* iphone 12 */
+@media screen and (max-width: 393px) {
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 950px;
+        background-image:linear-gradient(rgb(252, 252, 254), rgb(250, 229, 153 )) ;
+    }
+
+    .logo{
+        width: 8rem;
+    }
+
+    .title{
+        text-decoration: none;
+        color: rgb(41, 87, 173);
+        font-size: 25px;
+    }
+
+    .nav{
+        padding-top: 170px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        transition: 2s;
+    }
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 160px;
+    }
+  
+
+    .nav--hidden .nav_container{ 
+        transform: translateY(calc(-1 * 230px));
+        padding-top: 70px;
+        box-shadow: none;
+        font-size: 11px;
+        transition:  1s;
+    }
+
+
+    main{
+       padding-top: 95px;
+       margin-left: 25px;
+       margin-right: 10px;
+    }
+
+  }
+
+  /* iphone SE */
+@media screen and (max-width: 375px) {
+    .nav--hidden .nav_container{ 
+        transform: translateY(calc(-1 * 230px));
+        box-shadow: none;
+        font-size: 10px;
+        transition:  1s;
+    }
+    }
+
+
+
+    /* Samsung galaxy S8+*/
+  @media screen and (max-width: 360px) {
+    .missionST{
+        font-size: 20px;
+        line-height: 20pt;
+    }
+
+    .footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+    }
+
+  }
+  
+
+
+
+
+/* pixel 4 */
+@media screen and (max-width: 353px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 140px;
+    }
+
+    }

@@ -1,0 +1,87 @@
+main{
+    padding-top: 130px;
+}
+
+.contact{
+    margin: 5px;
+}
+
+.contactTitle{
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+body{
+    height: 1000px;
+}
+
+.footer{
+    position: relative; 
+    margin-top: 30px;
+}
+
+.name{
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.email{
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 20px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message{
+    width: 80%;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selectOption{
+    width: 86%;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+    font-family: monospace;
+    text-align: center;
+}
+
+.btnSubmit{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 30%;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    color:rgb(41, 87, 173);
+
+}
