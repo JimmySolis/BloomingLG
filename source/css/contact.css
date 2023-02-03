@@ -4,6 +4,7 @@ main{
 
 .contact{
     margin: 5px;
+    padding-left: 100px;
 }
 
 .contactTitle{
@@ -13,7 +14,7 @@ main{
 }
 
 body{
-    height: 1000px;
+    height: 1300px;
 }
 
 .footer{
@@ -58,7 +59,7 @@ body{
 }
 
 .selectOption{
-    width: 86%;
+    width: 81%;
     height: 50px;
     margin: 5px;
     padding: 10px;
@@ -93,6 +94,10 @@ body{
         overflow-y: hidden;
     }
 
+    .selectOption{
+        width: 86%;
+    }
+
     .footer{
         position: fixed;
         bottom: 0;
@@ -109,6 +114,10 @@ body{
         padding: 15px;
         font-size: 15px;
     }
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
+    }
 }
 
  /* Iphone xr */
@@ -123,6 +132,15 @@ body{
     main{
         padding-top: 0px;
     }
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
+    }
+
+    .selectOption{
+        width: 86%;
+    }
+
  }
 
  /* pixel 3 */
@@ -167,7 +185,10 @@ body{
         margin-left: 25%;
 
     }
-
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
+    }
 
 
  }
@@ -185,10 +206,18 @@ body{
         font-size: 20px;
     }
 
+ .selectOption{
+        width: 86%;
+    }
+
     
     .btnSubmit{
         width: 30%;
         margin-left: 30%;
+    }
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
     }
     
 }
@@ -205,6 +234,15 @@ body{
         width: 30%;
         margin-left: 27%;
     }
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
+    }
+
+    .selectOption{
+        width: 86%;
+    }
+
 }
 
 
@@ -222,5 +260,15 @@ body{
         width: 30%;
         margin-left: 27%;
     }
+
+    .contact{
+        margin: 5px;
+        padding-left: 0px;
+    }
+
+    .selectOption{
+        width: 86%;
+    }
+
     
     }
